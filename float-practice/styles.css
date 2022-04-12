@@ -1,0 +1,56 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #ccc;
+    font-family: 'Nanum Brush Script', cursive;
+}
+
+article {
+    background-color: white;
+    max-width: 800px;
+    margin: 0px auto;
+    padding: 30px;
+}
+
+h2 {
+    font-family: 'Seaweed Script', cursive;
+}
+
+.image-container {
+    width: 300px;
+    padding: 10px 10px 10px 10px;
+    border: 1px solid #ddd;
+    box-shadow: 10px 5px 0px #ddd;
+}
+
+.image-container img {
+    width: 100%;
+}
+
+.image-container p {
+    text-align: center;
+    margin: 10px auto 0px;
+}
+
+#image-1 {
+    float: right;
+    margin-left: 40px;
+    transform: rotate(3deg);
+}
+
+.p-1 {
+    clear: left;
+}
+
+#image-2 {
+    float: left;
+    margin-right: 40px;
+    margin-top: 20px;
+    transform: rotate(-3deg);
+}
+
+.p-2 {
+    clear: right;
+}
